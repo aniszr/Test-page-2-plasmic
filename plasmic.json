@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -47,7 +47,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-query"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "9Vr5YWkf3w7jj6SsTcCEta",
@@ -69,7 +70,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "jkU633o1Cz7HrJdwdxhVHk",
@@ -123,7 +125,8 @@
           }
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "ohDidvG9XsCeFumugENU3J",
@@ -523,7 +526,8 @@
           "componentImportPath": "@plasmicpkgs/antd5/skinny/registerBreadcrumb"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "mKCH3BBHL5q2ZUQXDXcEu3",
@@ -532,20 +536,6 @@
       "version": "latest",
       "cssFilePath": "plasmic/tutorial_app_in_5_minutes/plasmic.module.css",
       "components": [
-        {
-          "id": "3ziypgtUm3uc",
-          "name": "Homepage",
-          "type": "managed",
-          "projectId": "mKCH3BBHL5q2ZUQXDXcEu3",
-          "renderModuleFilePath": "plasmic/tutorial_app_in_5_minutes/PlasmicHomepage.jsx",
-          "importSpec": {
-            "modulePath": "../pages/index.jsx"
-          },
-          "cssFilePath": "plasmic/tutorial_app_in_5_minutes/PlasmicHomepage.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/"
-        },
         {
           "id": "yyc-xGxkEc6c",
           "name": "PageLayout",
